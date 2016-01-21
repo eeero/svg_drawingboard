@@ -1,0 +1,72 @@
+html{
+ height:100%;
+}
+
+body{
+  min-height:100%;
+  margin:0;
+  padding:0;
+  background-color: #f3f5f5;
+}
+
+menu{
+  position:absolute;
+  width:99%;
+  padding:0;
+  margin:0;
+}
+
+menu h3{
+  float:left;
+  color:#c7c8c9;
+  padding:0 0 0 10px;
+  margin:0;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 2em;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+}
+
+menu .control_buttons{
+  float:right;
+}
+
+menu button{
+  background-color: #0ba5fe;
+  border: none;
+  color: white;
+  padding: 15px 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+menu .moveButton{
+  background-color: purple;
+  /*float:right;*/
+}
+
+menu .clearButton{
+  background-color: #f683b1;
+  /*float:right;*/
+}
+
+svg{
+  width:100%;
+  height:100vh;
+  border: solid #0ba5fe 1px;
+}
+
+svg text{
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+}
+
+svg .widget{
+  cursor: move;
+}
