@@ -7,7 +7,7 @@ $( ".controlButton" ).click(function(event) {
    mode = event.target.id;
    //console.log("Mode is changed to: " + mode + ".");
    $(".controlButton").css("background-color", "#0ba5fe");
-   $(".moveButton").css("background-color", "purple");
+   $(".moveButton").css("background-color", "#d593d5");
    this.style.backgroundColor = '#0bfe9a';
 });
 

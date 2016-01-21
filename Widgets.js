@@ -5,7 +5,7 @@ var Widget = function(element){
   //Append element to the SVG drawingBoard.
   document.getElementById('drawingBoard').appendChild(this.element);
 
-  //When mode is Move, on mousedown, widget runs selectElement method. this is binded.
+  //When mode is Move, on mousedown: widget runs selectElement method.
   this.element.onmousedown = this.selectElement.bind(this);
   this.element.setAttributeNS(null, "class", "widget");
 
